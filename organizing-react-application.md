@@ -12,7 +12,7 @@ This is my (opinionated) high level thought process on how we should approach ap
 |---- <dot-files> e.g. .gitignore, .npmrc, .babelrc
 |
 +---- src
-|       componets
+|       components
 |           Heading
 |           Carousal
 |           ...
@@ -35,7 +35,7 @@ This structure works fine for smaller project, but if you are building a complex
 ```
 src
 |
-+---- componets
++---- components
 |       HomePage
 |         Hero
 |           index.js  
@@ -54,7 +54,7 @@ src
 
 React is a view library which is built with component driven development in mind. With the ability to create highly nested structure without worring about performance, it allows developer to easily adopt patterns like Atomic.
 
-The best way to think about component is to treat it like an isolated unit, where each component encapsulate the behavior as well as presentation aspects, including dependencies, test cases and documentation. For e.g. a NPM module, as a developer I should be able to publish it as NPM module and a component should simply work.
+The best way to think about component is to treat it like an isolated unit, where each component encapsulate the behaviour as well as presentation aspects, including dependencies, test cases and documentation. For e.g. a NPM module, as a developer I should be able to publish it as NPM module and a component should simply work.
 
 ```
 <component-name>
